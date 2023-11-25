@@ -42,7 +42,7 @@
     &trans &kp A       &ht LALT S  &ht LCTRL D &kp F     &kp G               &kp H       &kp J       &ht LCTRL K &ht LALT L    &kp SINGLE_QUOTE &kp SEMICOLON
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z        │  X         │  C        │  V        │  B         │  │  N         │  M        │ , <       │ . >        │ / ?       │
-    &kp L_GUI &kp Z    &kp X      &kp C      &kp V      &kp B                 &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH &trans
+    &kp LEFT_GUI  &kp Z    &kp X      &kp C      &kp V      &kp B                 &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                  &kp BSPC  &mo CONTROLS &kp LSHFT     &lt NUMBERS SPACE  &ht CAPS ENTER &trans
         //                                     ╰──────────┴──────────╯   ╰──────────┴──────────╯
