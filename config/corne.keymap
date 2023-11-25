@@ -36,15 +36,15 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  Q        │  W        │  E        │  R         │  T        │    │  Y       │  U         │  I        │  O         │  P        │
-           &trans &kp Q      &kp W      &kp E      &kp R      &kp T                 &kp Y      &kp U      &kp I      &kp O      &kp P &trans
+    &trans &kp Q      &kp W      &kp E      &kp R      &kp T                 &kp Y      &kp U      &kp I      &kp O      &kp P &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A         │  S        │  D        │  F        │  G         │   │  H        │  J        │  K        │  L         │ ' "       │
-           &trans &kp A       &ht LALT S  &ht LCTRL D &kp F     &kp G               &kp H       &kp J       &ht LCTRL K &ht LALT L    &ht SINGLE_QUOTE SEMICOLON &trans
+    &trans &kp A       &ht LALT S  &ht LCTRL D &kp F     &kp G               &kp H       &kp J       &ht LCTRL K &ht LALT L    &ht SINGLE_QUOTE SEMICOLON &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z        │  X         │  C        │  V        │  B         │  │  N         │  M        │ , <       │ . >        │ / ?       │
-           &trans &ht LGUI Z    &kp X      &kp C      &kp V      &kp B                 &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH &trans
+    &trans &ht LGUI Z    &kp X      &kp C      &kp V      &kp B                 &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                        &trans &lt CONTROLS BSPC   &kp LSHFT     &lt NUMBERS SPACE  &ht CAPS ENTER &trans
+                                 &trans &lt CONTROLS BSPC   &kp LSHFT     &lt NUMBERS SPACE  &ht CAPS ENTER &trans
         //                                     ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -53,15 +53,15 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│           │           │            │           │           │    │           │           │            │           │           │
-           &trans &kp X      &kp V        &kp L           &kp C      &kp W            &kp K      &kp H         &kp G      &kp F        &kp Q &trans
+    &trans &kp X      &kp V        &kp L           &kp C      &kp W            &kp K      &kp H         &kp G      &kp F        &kp Q &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│            │           │           │          │            │   │            │           │            │           │           │
-           &trans &kp U       &ht LALT I    &ht LCTRL A       &kp E     &kp O         &kp S     &kp N      &ht LCTRL R    &ht LALT T   &ht Z D &trans
+    &trans &kp U       &ht LALT I    &ht LCTRL A       &kp E     &kp O         &kp S     &kp N      &ht LCTRL R    &ht LALT T   &ht Z D &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│           │           │           │            │           │    │           │           │           │            │           │
-           &trans &kp LBKT  &kp SEMICOLON &kp SINGLE_QUOTE  &kp P        &kp Y         &kp B          &kp M      &kp COMMA  &kp DOT       &kp J &trans
+    &trans &kp LBKT  &kp SEMICOLON &kp SINGLE_QUOTE  &kp P        &kp Y         &kp B          &kp M      &kp COMMA  &kp DOT       &kp J &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                      &trans &lt CONTROLS BSPC   &kp LSHFT        &lt 3 SPACE  &lt NEO_EXTRA ENTER &trans
+                                &trans &lt CONTROLS BSPC   &kp LSHFT        &lt 3 SPACE  &lt NEO_EXTRA ENTER &trans
         //                                     ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -71,15 +71,15 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│   …       │   _       │   [        │     ]     │     ^     │    │    !      │    <      │     >      │   =       │    &      │
-           &trans &kp F1      &kp QUESTION  &kp RA(N8)  &kp RA(N9)   &kp GRAVE        &kp EXCLAMATION  &kp PIPE &kp LS(PIPE) &kp LS(N0) &kp LS(N6) &trans
+    &trans &kp F1      &kp QUESTION  &kp RA(N8)  &kp RA(N9)   &kp GRAVE        &kp EXCLAMATION  &kp PIPE &kp LS(PIPE) &kp LS(N0) &kp LS(N6) &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│     \      │     /     │    {      │     }    │      *     │   │    ?       │       (   │      )     │     -     │     :     │
-           &trans &kp RA(MINUS) &kp LS(N7) &kp RA(N7) &kp RA(N0)  &kp RBRC      &kp LS(MINUS) &kp LS(N8) &kp LS(N9)    &kp FSLH  &kp LS(DOT) &trans
+    &trans &kp RA(MINUS) &kp LS(N7) &kp RA(N7) &kp RA(N0)  &kp RBRC      &kp LS(MINUS) &kp LS(N8) &kp LS(N9)    &kp FSLH  &kp LS(DOT) &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│   #       │     $     │     |     │    ~       │    `      │    │    +      │    %      │    "      │     '      │   ;       │
-           &trans &kp BSLH  &kp LS(N4)    &kp PIPE    &kp RA(RBKT)   &kp PLUS         &kp RBKT   &kp LS(N5)   &kp LS(N2)   &kp LS(BSLH) &kp LS(COMMA) &trans
+    &trans &kp BSLH  &kp LS(N4)    &kp PIPE    &kp RA(RBKT)   &kp PLUS         &kp RBKT   &kp LS(N5)   &kp LS(N2)   &kp LS(BSLH) &kp LS(COMMA) &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &trans &trans     &trans      &trans     &trans &trans
+                                    &trans &trans     &trans      &trans     &trans &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -88,15 +88,15 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│           │           │            │           │           │    │           │           │            │           │           │
-           &trans &kp GRAVE    &trans     &kp PG_UP     &kp PG_DN     &trans         &kp LCTRL   &kp N7       &kp N8       &kp N9     &kp LBKT &trans
+    &trans &kp GRAVE    &trans     &kp PG_UP     &kp PG_DN     &trans         &kp LCTRL   &kp N7       &kp N8       &kp N9     &kp LBKT &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤ 
         //│            │           │           │          │            │   │            │           │            │           │           │
-           &trans &trans      &trans     &kp KP_PLUS     &kp KP_MINUS     &kp BSPC         &kp COMMA       &kp N4      &kp N5        &kp N6   &kp SINGLE_QUOTE &trans
+    &trans &trans      &trans     &kp KP_PLUS     &kp KP_MINUS     &kp BSPC         &kp COMMA       &kp N4      &kp N5        &kp N6   &kp SINGLE_QUOTE &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│           │           │           │            │           │    │           │           │           │            │           │
-          &trans &to BTCTL  &tog NEO_ALPHA &kp KP_MULTIPLY     &kp KP_DIVIDE     &trans         &kp DOT     &kp N1     &kp N2       &kp N3       &trans &trans
+    &trans &to BTCTL  &tog NEO_ALPHA &kp KP_MULTIPLY     &kp KP_DIVIDE     &trans         &kp DOT     &kp N1     &kp N2       &kp N3       &trans &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                                &trans &kp BSPC     &kp LSHFT        &trans     &kp N0 &trans
+                                        &trans &kp BSPC     &kp LSHFT        &trans     &kp N0 &trans
         //                                     ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -105,15 +105,15 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│           │           │            │           │           │    │           │           │            │           │           │
-           &trans &kp F1      &kp F2        &kp F3      &kp F4      &kp F5            &kp F6      &kp F7      &kp F8      &kp F9        &kp F10 &trans
+    &trans &kp F1      &kp F2        &kp F3      &kp F4      &kp F5            &kp F6      &kp F7      &kp F8      &kp F9        &kp F10 &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│            │           │           │          │            │   │            │           │            │           │           │
-           &trans &kp F11       &kp LALT    &kp LCTRL    &kp ESC    &kp TAB         &kp LEFT    &kp DOWN      &kp UP      &kp RIGHT   &kp F12 &trans
+    &trans &kp F11       &kp LALT    &kp LCTRL    &kp ESC    &kp TAB         &kp LEFT    &kp DOWN      &kp UP      &kp RIGHT   &kp F12 &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│           │           │           │            │           │    │           │           │           │            │           │
-          &trans &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp C_PP &kp C_NEXT      &kp HOME  &kp TAB       &kp DEL     &kp END       &kp PRINTSCREEN &trans
+    &trans &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp C_PP &kp C_NEXT      &kp HOME  &kp TAB       &kp DEL     &kp END       &kp PRINTSCREEN &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                               &trans &trans        &trans              &kp LSHFT     &trans &trans
+                                        &trans &trans        &trans              &kp LSHFT     &trans &trans
         //                                     ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -123,15 +123,15 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ RESET    │          │          │          │PROFILE 0 │   │          │          │          │          │  RESET   │
-           &trans &sys_reset     &trans     &trans     &trans    &bt BT_SEL 0    &trans     &trans     &trans     &trans      &sys_reset &trans
+    &trans &sys_reset     &trans     &trans     &trans    &bt BT_SEL 0    &trans     &trans     &trans     &trans      &sys_reset &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER│
-         &trans &bootloader  &trans     &trans     &trans    &bt BT_SEL 1    &trans     &trans     &trans     &trans    &bootloader &trans
+    &trans &bootloader  &trans     &trans     &trans    &bt BT_SEL 1    &trans     &trans     &trans     &trans    &bootloader &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │ CLEAR BT │PROFILE 2 │   │          │          │          │          │          │
-           &trans &trans     &trans     &trans    &bt BT_CLR &bt BT_SEL 2    &trans     &trans     &trans     &trans     &trans &trans
+    &trans &trans     &trans     &trans    &bt BT_CLR &bt BT_SEL 2    &trans     &trans     &trans     &trans     &trans &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &trans &trans     &to DEFAULT         &trans     &trans &trans
+                                    &trans &trans     &to DEFAULT         &trans     &trans &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
