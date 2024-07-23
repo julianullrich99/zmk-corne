@@ -36,7 +36,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  Q        │  W        │  E        │  R         │  T        │    │  Y       │  U         │  I        │  O         │  P        │ Ü
-    &kp LA(ESC) &kp Q      &kp W      &kp E      &kp R      &kp T                 &kp Y      &kp U      &kp I      &kp O      &kp P  &kp LBKT
+    &kp ENTER &kp Q      &kp W      &kp E      &kp R      &kp T                 &kp Y      &kp U      &kp I      &kp O      &kp P  &kp LBKT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A         │  S        │  D        │  F        │  G         │   │  H        │  J        │  K        │  L         │ ' "       │
     &kp LS(LC(SPACE))  &kp A       &ht LALT S  &ht LCTRL D &kp F     &kp G               &kp H       &kp J       &ht LCTRL K &ht LALT L    &kp SEMICOLON &kp SINGLE_QUOTE
@@ -44,7 +44,7 @@
         //│  Z        │  X         │  C        │  V        │  B         │  │  N         │  M        │ , <       │ . >        │ / ?       │
     &kp LEFT_GUI  &kp Z    &kp X      &kp C      &kp V      &kp B                 &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp LC(LA(J))
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                 &kp BSPC  &mo CONTROLS &kp LSHFT     &lt NUMBERS SPACE  &ht CAPS ENTER  &kp ESC
+                                 &kp BSPC  &lt CONTROLS SPACE &kp LSHFT     &lt NUMBERS SPACE  &ht CAPS ENTER  &kp ESC
         //                                     ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -108,7 +108,7 @@
     &kp F1      &kp F2        &kp F3      &kp F4 &kp F5   &kp F6      &kp F7      &kp F8      &kp F9  &kp F10 &kp F11 &kp F12
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│            │           │           │          │            │   │            │           │            │           │           │
-    &trans &kp F11       &kp LALT    &kp LCTRL    &kp ESC    &kp TAB         &kp LEFT    &kp DOWN      &kp UP      &kp RIGHT   &kp F12 &trans
+    &kp SPACE &kp ESC       &kp LALT    &kp LCTRL    &kp ESC    &kp TAB         &kp LEFT    &kp DOWN      &kp UP      &kp RIGHT   &kp F12 &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│           │           │           │            │           │    │           │           │           │            │           │
     &trans &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp C_PP &kp C_NEXT      &kp HOME  &kp TAB       &kp DEL     &kp END       &kp PRINTSCREEN &trans
