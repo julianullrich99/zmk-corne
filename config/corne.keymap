@@ -44,7 +44,7 @@
         //│  Z        │  X         │  C        │  V        │  B         │  │  N         │  M        │ , <       │ . >        │ / ?       │
     &kp LEFT_GUI  &kp Z    &kp X      &kp C      &kp V      &kp B                 &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp LC(LA(J))
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                 &kp BSPC  &lt CONTROLS SPACE &kp LSHFT     &lt NUMBERS SPACE  &ht CAPS ENTER  &kp ESC
+                                 &kp BSPC  &mo CONTROLS &kp LSHFT     &lt NUMBERS SPACE  &ht CAPS ENTER  &kp ESC
         //                                     ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
