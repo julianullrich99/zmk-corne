@@ -42,7 +42,7 @@
     &kp LS(LC(SPACE))  &kp A       &ht LALT S  &ht LCTRL D &kp F     &kp G               &kp H       &kp J       &ht LCTRL K &ht LALT L    &kp SEMICOLON &kp SINGLE_QUOTE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z        │  X         │  C        │  V        │  B         │  │  N         │  M        │ , <       │ . >        │ / ?       │
-    &kp LEFT_GUI  &kp Z    &kp X      &kp C      &kp V      &kp B                 &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp LC(LA(J))
+    &kp LEFT_GUI  &kp Z    &kp X      &kp C      &kp V      &kp B                 &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp RIGHT_GUI
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                  &kp BSPC  &mo CONTROLS &kp LSHFT     &lt NUMBERS SPACE  &ht CAPS ENTER  &kp ESC
         //                                     ╰──────────┴──────────╯   ╰──────────┴──────────╯
