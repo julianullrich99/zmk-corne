@@ -61,7 +61,7 @@
         //│           │           │           │            │           │    │           │           │           │            │           │
     &trans &kp LBKT  &kp SEMICOLON &kp SINGLE_QUOTE  &kp P        &kp Y         &kp B          &kp M      &kp COMMA  &kp DOT       &kp J &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                &trans &lt CONTROLS BSPC   &kp LSHFT        &lt 3 SPACE  &lt NEO_EXTRA ENTER &trans
+                                &trans &lt CONTROLS BSPC   &kp LSHFT        &lt 3 SPACE  &lt NEO_EXTRA ENTER &kp LSHFT
         //                                     ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
